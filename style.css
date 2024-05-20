@@ -4,11 +4,11 @@
 }
 
 header{
-    background-color: black;
-    color: antiquewhite;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
+    color: antiquewhite;
     width: 980px;
     height: 140px;
     padding: 10px;
@@ -19,14 +19,18 @@ div.paragrafos{
     flex-direction: row; 
 }
 aside{
-    border: solid 2px black;
-    margin: 15px 0 15px 15px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    border: solid 2px black;
+    margin: 15px 0 15px 15px;
     width: 270px;
     height: 450px;
 }
 section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: solid 2px black;
     margin: 15px;
     font-size: 20px;
@@ -35,6 +39,7 @@ section{
 }
 footer{
     display: flex;
+    align-items: center;
     justify-content: center;
     border: solid 2px black;
     width: 980px;
@@ -44,8 +49,12 @@ footer{
 
 footer ul{
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
     list-style-type: none;
-    justify-content: space-evenly;
+}
+li {
+    display: flex;
+    margin: 0 5px;
 }
 
